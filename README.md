@@ -1,2 +1,3 @@
-# Python-Academia
-Repositório destinado aos Trabalhos, Provas e Exercícios da disciplina de Linguagem de Programação na Universidade.
+NOME: JOÃO JOSÉ ANTÓNIO DA SILVA
+
+Exercicios e trabalhos de Linguagem de Programação.
