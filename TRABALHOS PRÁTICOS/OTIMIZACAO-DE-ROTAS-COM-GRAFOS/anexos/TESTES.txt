@@ -1,0 +1,27 @@
+TESTES
+
+    # TESTES — pares de nós válidos e conectados
+
+    # Teste 1: Uíge → Songo
+    exibir_caminho(grafo, "Uíge", "Songo")
+
+    # Teste 2: Puri → Songo
+    exibir_caminho(grafo, "Puri", "Songo")
+
+    # Teste 3: Uíge → Milunga
+    exibir_caminho(grafo, "Uíge", "Milunga")
+
+    # TESTES — casos especiais (critério de avaliação)
+
+    # Caso 1: Nó de origem inexistente
+    exibir_caminho(grafo, "Luanda", "Songo")
+
+    # Caso 2: Nó de destino inexistente
+    exibir_caminho(grafo, "Uíge", "Cabinda")
+
+    # Caso 3: Origem igual ao destino
+    exibir_caminho(grafo, "Bembe", "Bembe")
+
+    # Caso 4: Nó isolado (não conectado aos outros)
+    grafo.adicionar_no("Mbanza Kongo")   # nó sem arestas
+    exibir_caminho(grafo, "Uíge", "Mbanza Kongo")
