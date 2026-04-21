@@ -1,0 +1,1 @@
+Dentro do repositório do projeto (codigo), abrir o cmd como admin e rodar: pip install -r requeriments.txt
